@@ -1,3 +1,28 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
-@import 'tailwindcss/utilities'
+@import 'tailwindcss/utilities';
+
+@font-face {
+    font-family: 'alte_haas_groteskregular';
+    src: url('/altehaasgroteskregular-webfont.woff2') format('woff2'),
+         url('/altehaasgroteskregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'alte_haas_groteskbold';
+    src: url('/altehaasgroteskbold-webfont.woff2') format('woff2'),
+         url('/altehaasgroteskbold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p {
+    font-family: 'alte_haas_groteskregular';
+}
+
+h1 {
+    font-family: 'alte_haas_groteskbold';
+}
