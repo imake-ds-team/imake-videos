@@ -22,22 +22,7 @@
 				<li
 					class="flex items-center p-1 text-sm gap-x-2 text-slate-600"
 				>
-					<a href="#" class="flex items-center">Pages</a>
-				</li>
-				<li
-					class="flex items-center p-1 text-sm gap-x-2 text-slate-600"
-				>
-					<a href="#" class="flex items-center">Account</a>
-				</li>
-				<li
-					class="flex items-center p-1 text-sm gap-x-2 text-slate-600"
-				>
-					<a href="#" class="flex items-center">Blocks</a>
-				</li>
-				<li
-					class="flex items-center p-1 text-sm gap-x-2 text-slate-600"
-				>
-					<a href="#" class="flex items-center">Docs</a>
+					<a href="/about" class="flex items-center">About</a>
 				</li>
 			</ul>
 		</div>
